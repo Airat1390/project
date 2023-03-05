@@ -64,7 +64,7 @@ showMyDB(PersonalMoveDB.privet);
 
 function writeYourGenres() {
     for (let i = 0; i <= 3; i++) {
-        PersonalMoveDB.genres[i-1] = prompt(`Ваш любимый жанр под номером, ${i}`);
+        PersonalMoveDB.genres[i-1] = prompt(`Ваш любимый жанр под номером ${i}`);
     }
 }
 writeYourGenres();
